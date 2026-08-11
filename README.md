@@ -1,7 +1,7 @@
 # KABUNGA CHARLES — Portfolio
 
 # Portfolio deployed on netlify
-- (Click to view portfolio)[https://kabungacharles.netlify.app]
+- [Click to view portfolio](https://kabungacharles.netlify.app)
 
 # Certificates attained:
 - Foundation of Back End Development
