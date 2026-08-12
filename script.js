@@ -39,7 +39,7 @@ document.querySelectorAll(".js-project-link").forEach(link => {
     const url = link.dataset.url;
     if (!url || url.includes("example.com")) {
       event.preventDefault();
-      alert("This project is still being prepared. Replace the placeholder demo link in index.html when the demo/video is ready.");
+      alert("This project is still under development. The Link will be updated upon completion of testing and deployment,Thank you.");
     }
   });
 });
