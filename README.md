@@ -1,21 +1,22 @@
 # KABUNGA CHARLES — Portfolio
 
-# Portfolio deployed on netlify
+Portfolio deployed on netlify
 - [Click to view portfolio](https://kabungacharles.netlify.app)
 
 # Certificates attained:
 - Foundation of Back End Development
 - Introduction to Cybersecurity
 - Introduction to Blockchain
-- Python Programming — Network Defense
+- Python Programming
+- Network Defense 
 
-# Download the CV by clicking the button in the portfolio
+# Download the CV and Resume by clicking the button in the portfolio
 
-The "Download CV" button in the hero section points to this file and uses the HTML `download` attribute, so clicking it downloads the PDF directly (named `Kabunga_Charles_CV.pdf`) instead of opening it in a new tab. This works reliably once the site is served from a real host (Netlify) — some browsers behave inconsistently with `download` when opening `index.html` straight from disk.
+The "Download CV" and "Download Resume" button in the hero section points to this file and uses the HTML `download` attribute, so clicking it downloads the PDF directly (named `Kabunga_Charles_CV.pdf` and `Kabunga_Charles_Resume.pdf`) instead of opening it in a new tab. This works reliably once the site is served from a real host (Netlify) — some browsers behave inconsistently with `download` when opening `index.html` straight from disk.
 
 ## Project demo links
 
-CampusNova currently uses a placeholder URL so the button is ready without pretending the project is deployed. Search `index.html` for `https://example.com/campusnova-demo` and replace it once you have a real demo/video link.
+CampusNova currently uses a placeholder URL so the button is ready without pretending the project is deployed because it displays a popup menu indicating the ongoing development.
 
 Quick Marble & Granite is marked as **Deployed (Firebase)** and complete — click the view app button to view a video noting out the major parts of the application
 
@@ -43,4 +44,7 @@ Then visit:
 
 `http://localhost:5500`
 
-The site is pure HTML, CSS and JavaScript, so no npm installation is required.
+The site is pure HTML, CSS and JavaScript, so no npm installation is required and the file server extension for to run locally.
+
+# Developer 
+Kabunga Charles
