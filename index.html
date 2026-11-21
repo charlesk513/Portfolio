@@ -1,414 +1,346 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- SEO Primary Meta Tags -->
-  <title>Kabunga Charles | Software Developer Portfolio</title>
-  <meta name="description" content="Explore the portfolio of Kabunga Charles, a Computer Science student and software developer building practical technology solutions, web platforms, and mobile applications.">
-  <meta name="keywords" content="Kabunga Charles, Kabunga Charles portfolio, Kabunga Charles software developer, MUST computer science, CampusNova, CampusFlow, Uganda developer">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kabunga Charles | Software Developer & Computer Science Student</title>
+  <meta name="description"
+    content="Portfolio of Kabunga Charles: software systems, data projects, engineering experience and technical learning.">
   <meta name="author" content="Kabunga Charles">
-  <link rel="canonical" href="https://kabungacharles.netlify.app/">
-  <meta name="robots" content="index, follow">
-
-  <!-- Open Graph / Facebook / LinkedIn -->
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Kabunga Charles Portfolio">
-  <meta property="og:title" content="Kabunga Charles | Software Developer Portfolio">
-  <meta property="og:description" content="Explore the software projects, technical skills, certifications, and development journey of Kabunga Charles.">
-  <meta property="og:url" content="https://kabungacharles.netlify.app/">
-  <meta property="og:image" content="https://kabungacharles.netlify.app/images/profile.jpg">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Kabunga Charles | Software Developer Portfolio">
-  <meta name="twitter:description" content="Explore the software projects, technical skills, and developer portfolio of Kabunga Charles.">
-  <meta name="twitter:image" content="https://kabungacharles.netlify.app/images/profile.jpg">
-
-  <!-- Fonts & Styles -->
+  <meta name="theme-color" content="#101820">
+  <meta property="og:title" content="Kabunga Charles | Software Developer">
+  <meta property="og:description" content="Building practical software systems and data-driven solutions.">
+  <meta property="og:image" content="images/profile.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-
-  <!-- Structured Data / JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://kabungacharles.netlify.app/#person",
-    "name": "Kabunga Charles",
-    "url": "https://kabungacharles.netlify.app/",
-    "image": "https://kabungacharles.netlify.app/images/profile.jpg",
-    "jobTitle": "Software Developer & Computer Science Student",
-    "worksFor": {
-      "@type": "EducationalOrganization",
-      "name": "Mbarara University of Science and Technology"
-    },
-    "alumniOf": {
-      "@type": "EducationalOrganization",
-      "name": "Mbarara University of Science and Technology"
-    },
-    "description": "Computer Science student and software developer building practical technology solutions, enterprise web systems, and mobile applications.",
-    "sameAs": [
-      "https://github.com/charlesk513",
-      "https://www.linkedin.com/in/charles-kabunga-354250397/"
-    ]
-  }
-  </script>
 </head>
 
 <body>
-  <div class="ambient ambient-one"></div>
-  <div class="ambient ambient-two"></div>
-
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="Kabunga Charles home">
-      <span class="brand-mark">KC</span>
-      <span>KABUNGA CHARLES</span>
-    </a>
-
-    <nav class="desktop-nav" aria-label="Main navigation">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#certificates">Certificates</a>
-      <a href="#contact">Contact</a>
-    </nav>
-
-    <div class="header-actions">
-      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark and light mode">
-        <span id="themeIcon">☾</span>
-      </button>
-      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
-    </div>
-
-    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#certificates">Certificates</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header class="header"><a class="brand" href="#home"><span class="mark">CK</span> KABUNGA CHARLES</a>
+    <nav><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a
+        href="#skills">Skills</a><a href="#recognition">Recognition</a></nav>
+    <a class="header-contact" href="#contact">Contact ↗</a>
   </header>
-
   <main>
-    <section class="hero section" id="home">
-      <div class="hero-copy reveal">
-        <div class="eyebrow"><span class="pulse-dot"></span> Available for opportunities & collaborations</div>
-        <h1>KABUNGA <span>CHARLES</span></h1>
-        <p class="hero-role">Computer Science Student <i>•</i> Software Developer <i>•</i> Builder</p>
-        <p class="hero-text">
-          I build practical digital products, explore emerging technology, and turn ideas into useful solutions.
-        </p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#projects">Explore My Work <span>↗</span></a>
-          <a class="btn btn-ghost" href="images/CV.pdf" download="Kabunga_Charles_CV.pdf">Download CV <span>⬇</span></a>
-          <a class="btn btn-ghost" href="#contact">Let's Connect</a>
-        </div>
-        <div class="social-row">
-          <a href="https://github.com/charlesk513" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <span>·</span>
-          <a href="https://www.linkedin.com/in/charles-kabunga-354250397" target="_blank"
-            rel="noopener noreferrer">LinkedIn</a>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> Computer Science · Software Development · Data</p>
+        <h1>Building software<br><span>that solves</span><br>real problems.</h1>
+        <p class="intro">I’m Kabunga Charles, a Computer Science student at Mbarara University of Science and
+          Technology. I design and build practical software, explore data-driven solutions, and learn by taking ideas
+          through implementation.</p> Charles_Kabunga_Resume
+        <div class="actions"><a class="button primary" href="#projects">Explore selected work ↘</a><a class="button"
+            href="images/CV.pdf" download>Download CV ↓</a></div>
+        <div class="social"><a href="https://github.com/charlesk513" target="_blank" rel="noopener">GitHub ↗</a><a
+            href="https://www.linkedin.com/in/charles-kabunga-354250397" target="_blank" rel="noopener">LinkedIn ↗</a>
         </div>
       </div>
-
-      <div class="hero-image-wrap reveal">
-        <div class="image-orbit orbit-one"></div>
-        <div class="image-orbit orbit-two"></div>
-        <div class="profile-frame">
-          <img src="images/profile.jpg" alt="Portrait of Kabunga Charles"
-            onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder');">
-          <div class="placeholder-content">
-            <span>KC</span>
-            <small>Add your profile image</small>
-          </div>
-        </div>
-        <div class="floating-card card-top"><strong>6+</strong><span>Core technologies</span></div>
-        <div class="floating-card card-bottom"><strong>∞</strong><span>Ideas to build</span></div>
+      <div class="hero-photo"><img src="images/profile.jpg" alt="Portrait of Kabunga Charles">
+        <div class="photo-caption"><strong>Curious by nature.</strong><span>Engineering through practice.</span></div>
       </div>
     </section>
-
-    <section class="section narrow" id="about">
-      <div class="section-heading reveal">
-        <span class="section-number">01</span>
-        <div>
-          <p class="kicker">ABOUT ME</p>
-          <h2>Student. Builder. <span>Entrepreneur.</span></h2>
-        </div>
+    <div class="ticker"><span>SOFTWARE ENGINEERING</span><span>DATA &
+        ANALYTICS</span><span>DATABASES</span><span>PRODUCT BUILDING</span><span>CONTINUOUS LEARNING</span></div>
+    <section class="section" id="about">
+      <div class="section-title">
+        <p class="eyebrow">01 / PROFILE</p>
+        <h2>Grounded in fundamentals.<br><span>Driven by useful outcomes.</span></h2>
       </div>
-      <div class="about-grid">
-        <p class="about-lead reveal">
-          I am a Computer Science student at <b>Mbarara University of Science and Technology(MUST)</b> and software
-          developer passionate about turning ideas into practical
-          technology.
-          I enjoy going beyond writing code — I build products, solve real problems, learn continuously, and explore how
-          technology can create opportunities for people and businesses.
-        </p>
-        <div class="about-side reveal">
-          <p>
-            My work sits at the intersection of software development, problem solving and entrepreneurship. From student
-            platforms to business management systems and public-facing websites, I focus on creating solutions that are
-            useful, scalable and thoughtfully designed.
-          </p>
-          <p class="location">Based in <strong>Masaka, Uganda</strong> · Building from ideas into products.</p>
+      <div class="two-col">
+        <p class="lead">I approach software as a way to understand a problem, reason about its constraints, and build a
+          solution that people can use.</p>
+        <div class="copy">
+          <p>My interests include backend development, application architecture, databases, data analysis and the
+            intersection of technology with everyday institutional and business needs.</p>
+          <p>I value understanding how systems work—not just using frameworks—and collaborate with others to move ideas
+            from concept to working demonstrations.</p>
+          <p class="location">Mbarara University of Science and Technology (MUST) · Uganda</p>
         </div>
       </div>
     </section>
-
-    <section class="section narrow" id="experience">
-      <div class="section-heading reveal">
-        <span class="section-number">02</span>
-        <div>
-          <p class="kicker">EXPERIENCE & INVOLVEMENT</p>
-          <h2>Where I <span>show up.</span></h2>
-        </div>
+    <section class="section" id="experience">
+      <div class="section-title">
+        <p class="eyebrow">02 / EXPERIENCE & INVOLVEMENT</p>
+        <h2>Learning in real<br><span>working environments.</span></h2>
       </div>
-      <div class="experience-list">
-        <div class="experience-card reveal">
-          <div class="experience-icon">MU</div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">2026</div>
           <div>
-            <h3>MUCOSA — Mbarara University Computing Students' Association</h3>
-            <p>Active member contributing to the university's computing community — supporting student tech initiatives,
-              events and peer learning.</p>
+            <h3>Java Development Intern · Codveda Technologies</h3>
+            <p>Completed a Java-focused internship opportunity involving software development, problem-solving, testing
+              and maintaining application work. The internship strengthened my exposure to structured development and
+              translating programming skills into practical tasks.</p>
+            <p class="small-note">Describe specific assignments or deliverables here once you can publicly share them;
+              this entry does not invent project details.</p>
           </div>
-        </div>
-        <div class="experience-card reveal">
-          <div class="experience-icon">DM</div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2026</div>
           <div>
-            <h3>DeepMinds AI Research</h3>
-            <p>Involved in AI research and learning activities, exploring practical applications of artificial
-              intelligence.</p>
+            <h3>Team Lead · Agricultural Data Science Innovation Hackathon</h3>
+            <p>Represented MUST as part of a selected student team. Led a multidisciplinary team during a 48-hour
+              hackathon and helped develop Ekiriisa, an agricultural data project examining manure nutrient loss and
+              supporting targeted extension insights.</p>
+            <p><strong>Result:</strong> 3rd place among 14 teams.</p>
           </div>
-        </div>
-        <div class="experience-card reveal">
-          <div class="experience-icon">ZC</div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2026</div>
           <div>
-            <h3>Zindi Club</h3>
-            <p>Participant in data science and machine learning challenges through the Zindi community, building applied
-              problem-solving skills.</p>
+            <h3>Team Lead · CITT–MIIC Hackathon</h3>
+            <p>Participated in the CITT–MIIC hackathon hosted at Mbarara University of Science and Technology as a team
+              lead, collaborating to develop and present a technology-oriented solution under competition constraints.
+            </p>
+            <p class="small-note">Add the project name, specific solution and result here if you have details or
+              materials that can be publicly shared.</p>
           </div>
-        </div>
-        <div class="experience-card reveal">
-          <div class="experience-icon">SL</div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">Ongoing</div>
           <div>
-            <h3>Student Leadership & Youth Peer Empowerment</h3>
-            <p>Contributing to student leadership initiatives and peer empowerment programs, supporting fellow students
-              and young people.</p>
+            <h3>MUCOSA · Computing community</h3>
+            <p>Engaged with the computing student community and peer learning activities at MUST.</p>
           </div>
-        </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">Ongoing</div>
+          <div>
+            <h3>Data science learning · Zindi & independent practice</h3>
+            <p>Exploring data analysis and machine-learning practice through learning activities and problem-oriented
+              experimentation.</p>
+          </div>
+        </article>
       </div>
     </section>
-
-    <section class="section narrow" id="skills">
-      <div class="section-heading reveal">
-        <span class="section-number">03</span>
-        <div>
-          <p class="kicker">SKILLS & TECHNOLOGIES</p>
-          <h2>Tools I use to <span>build.</span></h2>
-        </div>
+    <section class="section" id="projects">
+      <div class="section-title">
+        <p class="eyebrow">03 / SELECTED PROJECTS</p>
+        <h2>From problem framing<br>to <span>implementation.</span></h2>
+        <p class="section-intro">Selected projects, with the problem, approach, contribution and technologies made
+          explicit.</p>
       </div>
-      <div class="skills-grid">
-        <div class="skill-card reveal"><span class="skill-icon">C</span>
-          <h3>C</h3>
-          <p>Programming & problem solving</p>
-        </div>
-        <div class="skill-card reveal"><span class="skill-icon">J</span>
-          <h3>Java</h3>
-          <p>Object-oriented development</p>
-        </div>
-        <div class="skill-card reveal"><span class="skill-icon">D</span>
-          <h3>Dart</h3>
-          <p>Modern application development</p>
-        </div>
-        <div class="skill-card reveal"><span class="skill-icon">F</span>
-          <h3>Flutter</h3>
-          <p>Cross-platform applications</p>
-        </div>
-        <div class="skill-card reveal"><span class="skill-icon">JS</span>
-          <h3>JavaScript</h3>
-          <p>Interactive web experiences</p>
-        </div>
-        <div class="skill-card reveal"><span class="skill-icon">Py</span>
-          <h3>Python</h3>
-          <p>Automation, backend & scripting</p>
-        </div>
-      </div>
-      <div class="skill-tags reveal">
-        <span>Problem Solving</span><span>Web Development</span><span>Mobile Development</span>
-        <span>Cybersecurity</span><span>Networking</span><span>Entrepreneurship</span>
-      </div>
-    </section>
-
-    <section class="section narrow" id="projects">
-      <div class="section-heading reveal">
-        <span class="section-number">04</span>
-        <div>
-          <p class="kicker">SELECTED PROJECTS</p>
-          <h2>Things I've <span>built.</span></h2>
-        </div>
-      </div>
-
-      <div class="projects-list">
-        <article class="project-card featured reveal">
-          <div class="project-index">01</div>
-          <div class="project-content">
-            <div class="project-meta">STUDENT TECHNOLOGY · IN DEVELOPMENT</div>
+      <article class="project featured">
+        <div class="project-number">01 · FEATURED / IN DEVELOPMENT</div>
+        <div class="project-head">
+          <div>
             <h3>CampusNova</h3>
-            <p>A student-focused digital platform designed to bring learning resources, academic support and AI-powered
-              assistance into one useful experience.</p>
-            <div class="tech-row"><span>Flutter</span><span>Python</span><span>FastAPI</span><span>AI</span></div>
-            <a class="project-link js-project-link" data-url="https://example.com/campusnova-demo"
-              href="https://example.com/campusnova-demo" target="_blank" rel="noopener noreferrer">View / Demonstrate
-              <span>↗</span></a>
-            <small class="edit-note">Demo link is a placeholder replacement to be done in <code>index.html</code> when
-              CampusNova
-              is deployed. Thank you</small>
+            <p class="subtitle">A role-based academic hub for students, lecturers and administrators</p>
+          </div><img class="project-logo" src="images/campus_nova_logo.png" alt="CampusNova logo">
+        </div>
+        <div class="project-grid">
+          <div>
+            <h4>Problem</h4>
+            <p>Academic information and workflows can be fragmented across tools and manual processes.
+              Attendance collection and sharing records can also consume time and complicate verification.
+            </p>
+            <h4>Solution & approach</h4>
+            <p>CampusNova is being developed as a unified academic platform with separate student, lecturer
+              and administrator dashboards. It brings academic support and campus workflows into one
+              role-aware application, with attendance options using geofencing and Bluetooth proximity.
+            </p>
           </div>
-          <div class="project-visual campus-visual"><span>CN</span><small>CampusNova</small></div>
-        </article>
-
-        <article class="project-card reveal">
-          <div class="project-index">02</div>
-          <div class="project-content">
-            <div class="project-meta">BUSINESS MANAGEMENT SYSTEM · DEPLOYED (FIREBASE)</div>
+          <div>
+            <h4>Key capabilities</h4>
+            <ul>
+              <li>Role-based dashboards and access control</li>
+              <li>Student and lecturer experiences</li>
+              <li>Administrator management workflows</li>
+              <li>Attendance capture using geofencing and Bluetooth options</li>
+              <li>AI-assisted academic support features</li>
+              <li>API-backed application architecture</li>
+            </ul>
+            <h4>My contribution</h4>
+            <p>Initiated and developed the platform, worked on its backend and application architecture, and coordinated
+              team formation as the project expanded toward broader development and deployment.</p>
+          </div>
+        </div>
+        <div class="tech"><span>Flutter</span><span>FastAPI</span><span>Python</span><span>PostgreSQL</span><span>AI
+            integration</span></div>
+        <div class="links"><a href="https://chimerical-kitsune-55a608.netlify.app" target="_blank"
+            rel="noopener">Student demonstration ↗</a><a href="https://roaring-jelly-0e159b.netlify.app" target="_blank"
+            rel="noopener">Lecturer demonstration ↗</a></div>
+        <p class="small-note">These links are demonstrations. They may not represent the full production application or
+          all roles and features.</p>
+      </article>
+      <article class="project">
+        <div class="project-number">02 · DATA / HACKATHON</div>
+        <h3>Ekiriisa — Agricultural Data Insights</h3>
+        <p class="subtitle">Data-informed insight into manure nutrient loss for agricultural extension planning</p>
+        <div class="project-grid">
+          <div>
+            <h4>Problem</h4>
+            <p>Livestock manure can lose nutrients before they are effectively returned to agricultural land. The
+              challenge was to explore this issue with data and make the insights useful to agricultural
+              decision-makers.</p>
+            <h4>Solution</h4>
+            <p>A data-analysis and visualization project focused on identifying patterns in manure nutrient losses and
+              communicating them through an interactive dashboard and analytical narrative.</p>
+          </div>
+          <div>
+            <h4>Contribution & strengths demonstrated</h4>
+            <ul>
+              <li>Team leadership and collaboration in a 48-hour competition</li>
+              <li>Data preparation, analysis and interpretation</li>
+              <li>Problem framing and pitch development</li>
+              <li>Translating findings into dashboard-oriented insights</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tech"><span>Python</span><span>Pandas</span><span>Data
+            analysis</span><span>Qlik</span><span>Visualization</span></div><img class="project-image"
+          src="images/win.png" alt="Team recognition at agricultural data hackathon">
+        <p class="small-note">MUST team · 3rd place out of 14 teams.</p>
+      </article>
+      <article class="project">
+        <div class="project-number">03 · BUSINESS APPLICATION</div>
+        <div class="project-head">
+          <div>
             <h3>Quick Marble & Granite</h3>
-            <p>A multi-branch business management system for a Ugandan marble and granite company, streamlining clients,
-              quotations, contracts, operations and reporting across branches.</p>
-            <div class="tech-row"><span>Flutter</span><span>Firebase</span><span>Business Systems</span><span>UGX</span>
-            </div>
-            <a class="project-link"
-              href="https://drive.google.com/file/d/1UWRXCh6NO8ETE6hdahJJpANSbhej2V7Z/view?usp=sharing"
-              target="demo video about the app" rel="noopener noreferrer">View Live App <span>↗</span></a>
-            <small class="edit-note">That link contains a short.</small>
+            <p class="subtitle">Multi-branch business management application</p>
           </div>
-          <div class="project-visual marble-visual"><span>QM</span><small>Quick Marble</small></div>
-        </article>
-
-        <article class="project-card reveal">
-          <div class="project-index">03</div>
-          <div class="project-content">
-            <div class="project-meta">PUBLIC WEB · EDUCATION</div>
-            <h3>Standard Hill</h3>
-            <p>A public school website that gives parents information and enables them to send application enquiries
-              directly through the website.</p>
-            <div class="tech-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-            <a class="project-link" href="https://standardhill.netlify.app" target="_blank"
-              rel="noopener noreferrer">Visit Website <span>↗</span></a>
+          <img class="project-logo" src="images/quick_marble.jpg" alt="Modern interior stone and marble finishes">
+        </div>
+        <div class="project-grid">
+          <div>
+            <h4>Problem</h4>
+            <p>Business processes spanning clients, quotations, contracts, branch operations and reporting require
+              coordinated records and visibility.</p>
+            <h4>Solution</h4>
+            <p>A management application designed to centralize key operational workflows and provide a more consistent
+              way to manage business information.</p>
           </div>
-          <div class="project-visual standard-visual"><span>SH</span><small>Standard Hill</small></div>
-        </article>
-      </div>
+          <div>
+            <h4>Contribution</h4>
+            <p>Application development and implementation work on the business system. In an interview, I can explain
+              the specific modules and technical decisions I contributed to.</p>
+            <h4>Technologies</h4>
+            <p>Flutter and Firebase.</p>
+          </div>
+        </div>
+        <div class="tech"><span>Flutter</span><span>Firebase</span><span>Business workflows</span></div><a
+          href="https://drive.google.com/file/d/1UWRXCh6NO8ETE6hdahJJpANSbhej2V7Z/view?usp=sharing" target="_blank"
+          rel="noopener">Application walkthrough ↗</a>
+      </article>
+      <article class="project">
+        <div class="project-number">04 · WEB / PHP</div>
+        <h3>MediStock</h3>
+        <p class="subtitle">Pharmacy inventory and expiry management</p>
+        <div class="project-grid">
+          <div>
+            <h4>Problem</h4>
+            <p>Pharmacy stock needs visibility, expiry monitoring and orderly inventory handling to reduce the risk of
+              overlooking items nearing expiry.</p>
+            <h4>Solution</h4>
+            <p>A pharmacy management system that tracks stock and expiry information and applies the FEFO (First Expiry,
+              First Out) inventory principle.</p>
+          </div>
+          <div>
+            <h4>Technical focus</h4>
+            <p>Web application development, database interaction and inventory logic, with emphasis on expiry tracking
+              and structured records.</p>
+          </div>
+        </div>
+        <div class="tech">
+          <span>PHP</span><span>PDO</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div><a href="https://github.com/charlesk513/MediStock" target="_blank" rel="noopener">Repository ↗</a>
+      </article>
+      <article class="project">
+        <div class="project-number">05 · COLLABORATIVE GAME</div>
+        <h3>Duulu</h3>
+        <p class="subtitle">Multiplayer game concept with computer opponents</p>
+        <div class="project-grid">
+          <div>
+            <h4>Project</h4>
+            <p>A collaborative game project exploring multiplayer gameplay and computer-controlled opponents, including
+              animated avatar concepts.</p>
+          </div>
+          <div>
+            <h4>My contribution</h4>
+            <p>Contributed to scoring logic and avatar-related implementation. Further detail on model training or
+              animation tooling should be added only when the specific work is demonstrable.</p>
+          </div>
+        </div>
+        <div class="tech"><span>Three.js</span><span>TypeScript</span><span>Game logic</span></div>
+      </article>
+      <article class="project">
+        <div class="project-number">06 · PUBLIC WEB</div>
+        <h3>Standard Hill School Website</h3>
+        <p class="subtitle">Information website with admissions enquiries</p>
+        <div class="project-grid">
+          <div>
+            <h4>Problem & solution</h4>
+            <p>Parents and prospective students need access to school information and a way to send enquiries. This
+              website presents information and an enquiry pathway.</p>
+          </div>
+          <div>
+            <h4>Technical focus</h4>
+            <p>Responsive web design and client-side interaction.</p>
+          </div>
+        </div>
+        <div class="tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a
+          href="https://standardhill.netlify.app" target="_blank" rel="noopener">Visit website ↗</a>
+      </article>
     </section>
 
-    <section class="section certificates-section" id="certificates">
-      <div class="section-heading narrow reveal">
-        <span class="section-number">05</span>
-        <div>
-          <p class="kicker">CERTIFICATIONS</p>
-          <h2>Learning, <span>validated.</span></h2>
-        </div>
+    <section class="section" id="recognition">
+      <div class="section-title">
+        <p class="eyebrow">05 / RECOGNITION & LEARNING</p>
+        <h2>Milestones that<br><span>mark the journey.</span></h2>
       </div>
-      <div class="certificates-grid narrow">
-        <article class="certificate-card reveal">
-          <div class="certificate-image"><img src="images/datathon.jpg"
-              alt="Data to Impact AI and Data Science Innovation Hackathon Certificate - Kabunga Charles"
-              onerror="this.style.display='none'; this.parentElement.classList.add('cert-placeholder');"><span>Certificate
-              01</span></div>
-          <h3>Data Science & AI Innovation Hackathon</h3>
-          <p>Certificate of Participation — MUST / MUBS / vLirUOS (Oct 2026)</p>
+      <div class="recognition-grid">
+        <article><img src="images/datathon.jpg" alt="Hackathon participation certificate">
+          <h3>Agricultural Data Science Innovation Hackathon</h3>
+          <p>Participation certificate · 2026</p>
         </article>
-        <article class="certificate-card reveal">
-          <div class="certificate-image"><img src="images/certificate1.jpg"
-              alt="Foundation of Back End Development certificate"
-              onerror="this.style.display='none'; this.parentElement.classList.add('cert-placeholder');"><span>Certificate
-              02</span></div>
+        <article><img src="images/backend_development.jpg" alt="Backend development certificate">
           <h3>Foundation of Back End Development</h3>
-          <p>Professional Certificate — BeTechified</p>
+          <p>BeTechified</p>
         </article>
-        <article class="certificate-card reveal">
-          <div class="certificate-image"><img src="images/certificate2.jpg"
-              alt="Introduction to Cybersecurity certificate"
-              onerror="this.style.display='none'; this.parentElement.classList.add('cert-placeholder');"><span>Certificate
-              03</span></div>
+        <article><img src="images/introduction-to-cybersecurity_cisco_badge.png"
+            alt="Cisco Networking Academy cybersecurity badge">
           <h3>Introduction to Cybersecurity</h3>
           <p>Cisco Networking Academy</p>
         </article>
-        <article class="certificate-card reveal">
-          <div class="certificate-image"><img src="images/certificate3.jpg" alt="Introduction to Blockchain certificate"
-              onerror="this.style.display='none'; this.parentElement.classList.add('cert-placeholder');"><span>Certificate
-              04</span></div>
-          <h3>Introduction to Blockchain</h3>
-          <p>Cyfrin Updraft Certificate</p>
+        <article><img src="images/block_chain.jpg" alt="Blockchain course certificate">
+          <h3>Blockchain Basics</h3>
+          <p>Cyfrin Updraft</p>
         </article>
-        <article class="certificate-card reveal">
-          <div class="certificate-image"><img src="images/certificate4.jpg" alt="Python Programming certificate"
-              onerror="this.style.display='none'; this.parentElement.classList.add('cert-placeholder');"><span>Certificate
-              05</span></div>
+        <article><img src="images/python_programming.jpg" alt="Python programming certificate">
           <h3>Python Programming</h3>
-          <p>MUST & UCoBS Certificate</p>
+          <p>MUST & UCoBS</p>
         </article>
       </div>
-
-      <!-- Featured Hackathon Winner Spotlight -->
-      <div class="award-spotlight narrow reveal" style="margin-top: 2.5rem; background: var(--bg-card, #111827); border: 1px solid var(--border-color, #1f2937); border-radius: 12px; padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem;">
-        <div style="display: flex; align-items: center; gap: 0.75rem;">
-          <span style="font-size: 1.5rem;">🏆</span>
-          <div>
-            <h3 style="margin: 0; font-size: 1.25rem;">Hackathon Winner — Agricultural Data Science Innovation</h3>
-            <p style="margin: 0.25rem 0 0; color: var(--text-muted, #9ca3af); font-size: 0.9rem;">Awarded at MUBS / MUST Data to Impact Hackathon 2026</p>
-          </div>
-        </div>
-        <div style="width: 100%; border-radius: 8px; overflow: hidden; max-height: 400px; display: flex; justify-content: center; background: #000;">
-          <img src="images/win.png" alt="Kabunga Charles receiving award at Agricultural Data Science Innovation Hackathon" style="width: 100%; height: auto; object-fit: contain; max-height: 400px;">
-        </div>
-        <p style="margin: 0; font-size: 0.95rem; line-height: 1.5; color: var(--text-color, #e5e7eb);">
-          Honored as a winner in the <strong>Agricultural Data Science & Innovation Hackathon</strong> hosted jointly by Mbarara University of Science and Technology (MUST), Makerere University Business School (MUBS), vLirUOS, and Thomas More University of Applied Sciences.
-        </p>
-      </div>
-      <p class="certificate-note narrow reveal">These are the current certficates i have at hand</p>
-    </section>
-
-    <section class="section contact-section narrow" id="contact">
-      <div class="contact-panel reveal">
+      <div class="award"><img src="images/win.png" alt="Team at the award event">
         <div>
-          <p class="kicker">06 · CONTACT</p>
-          <h2>Have an idea?<br><span>Let's build it.</span></h2>
-          <p class="contact-intro">I'm open to meaningful collaborations, software projects, opportunities and
-            conversations around technology.</p>
-        </div>
-        <div class="contact-details">
-          <a
-            href="mailto:kabungacharles001@gmail.com"><span>Email</span><strong>kabungacharles001@gmail.com</strong></a>
-          <a href="tel:+256704807077"><span>Phone</span><strong>0704 807077</strong></a>
-          <a href="https://wa.me/256787773094" target="_blank"
-            rel="noopener noreferrer"><span>WhatsApp</span><strong>0787 773094</strong></a>
-          <div><span>Location</span><strong>Masaka, Uganda</strong></div>
+          <p class="eyebrow">TEAM ACHIEVEMENT</p>
+          <h3>3rd place · Data to Impact Hackathon</h3>
+          <p>Represented Mbarara University of Science and Technology at the agricultural data innovation hackathon
+            hosted with participating institutions. Led the team and helped deliver the Ekiriisa project and pitch.</p>
         </div>
       </div>
-      <div class="final-links reveal">
-        <a href="https://github.com/charlesk513" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-        <a href="https://www.linkedin.com/in/charles-kabunga-354250397" target="_blank"
-          rel="noopener noreferrer">LinkedIn ↗</a>
-        <a href="mailto:kabungacharles001@gmail.com">Email ↗</a>
+    </section>
+    <section class="section contact" id="contact">
+      <p class="eyebrow">06 / CONTACT</p>
+      <h2>Let’s discuss<br><span>what can be built.</span></h2>
+      <p>Open to internship opportunities, collaborative projects and conversations about technology.</p>
+      <div class="contact-links"><a href="mailto:kabungacharles001@gmail.com">kabungacharles001@gmail.com ↗</a><a
+          href="https://github.com/charlesk513" target="_blank" rel="noopener">GitHub ↗</a><a
+          href="https://www.linkedin.com/in/charles-kabunga-354250397" target="_blank" rel="noopener">LinkedIn ↗</a>
       </div>
     </section>
   </main>
-
-  <footer>
-    <div class="narrow footer-inner">
-      <span>© <span id="year"></span> KABUNGA CHARLES</span>
-      <span>Built with purpose · HTML · CSS · JavaScript</span>
-    </div>
-  </footer>
-
+  <div class="certificate-viewer" id="certificateViewer" aria-hidden="true"><button class="viewer-close"
+      aria-label="Close enlarged image">×</button><img id="viewerImage" src="" alt="Enlarged certificate">
+    <p>Click image or outside to return</p>
+  </div>
+  <footer><span>© <span id="year"></span> Kabunga Charles</span><span>Designed around evidence, curiosity and useful
+      software.</span></footer>
   <script src="script.js"></script>
 </body>
 
